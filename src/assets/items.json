@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Tank Tee", 
+        "price": 20.00, 
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "https://images-na.ssl-images-amazon.com/images/I/91Nh8JiapcL._UY879_.jpg",
+            "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6q7Tbmu3jAhVDh-AKHS4tBTQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.com%2Fclothing%2Fwomen%2Fbest-loved-bra-cami%2Fpro%2F6416500%2Fcat430028&psig=AOvVaw1JG0cAc-fRBhrEFz5xt8Pj&ust=1565145263431753"
+        ],
+        "key": "123"
+    },
+    {
+        "title": "Tank Tee", 
+        "price": 20.00, 
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "https://dl.airtable.com/K0niW2o6SfKO3A58Nq2d_large_3480_heather%20slate_2-1.jpg",
+            "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6q7Tbmu3jAhVDh-AKHS4tBTQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.com%2Fclothing%2Fwomen%2Fbest-loved-bra-cami%2Fpro%2F6416500%2Fcat430028&psig=AOvVaw1JG0cAc-fRBhrEFz5xt8Pj&ust=1565145263431753"
+        ],
+        "key": "asdfasdfasdf"
+    },
+    {
+        "title": "Tank Tee", 
+        "price": 20.00, 
+        "sizes": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "https://dl.airtable.com/EAxiEzwUSpQmNAaDF6ip_large_3739_dark%20grey_1.jpg",
+            "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6q7Tbmu3jAhVDh-AKHS4tBTQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.com%2Fclothing%2Fwomen%2Fbest-loved-bra-cami%2Fpro%2F6416500%2Fcat430028&psig=AOvVaw1JG0cAc-fRBhrEFz5xt8Pj&ust=1565145263431753"
+        ],
+        "key": "23sdf"
+    },
+    {
+        "title": "Mug", 
+        "price": 20.00, 
+        "sizes": [],
+        "images": [
+            "https://dl.airtable.com/jGuR2g95RtCiiBzJasUn_large_Mug_Detail_02.jpg",
+            "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6q7Tbmu3jAhVDh-AKHS4tBTQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.com%2Fclothing%2Fwomen%2Fbest-loved-bra-cami%2Fpro%2F6416500%2Fcat430028&psig=AOvVaw1JG0cAc-fRBhrEFz5xt8Pj&ust=1565145263431753"
+        ],
+        "key": "sdf32"
+    },
+    {
+        "title": "Hi Anders", 
+        "price": 40.00, 
+        "sizes": [],
+        "images": [
+            "https://dl.airtable.com/jGuR2g95RtCiiBzJasUn_large_Mug_Detail_02.jpg",
+            "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6q7Tbmu3jAhVDh-AKHS4tBTQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.express.com%2Fclothing%2Fwomen%2Fbest-loved-bra-cami%2Fpro%2F6416500%2Fcat430028&psig=AOvVaw1JG0cAc-fRBhrEFz5xt8Pj&ust=1565145263431753"
+        ],
+        "key": "sdf32"
+    }
+]

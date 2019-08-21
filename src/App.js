@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Test from './test';
+import './App.css';
+import logo from './assets/MM-Label.JPG';
+import StoreFront from './store/storefront';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+class App extends Component {
+
+  render() {
+    return (
+      <div className="App">
+        <header className="wrapper">
+          <img src={logo} />
+        </header>
+        <div id='main'>
+          <StoreFront />
+        </div>
+        <footer>Footer</footer>
+      </div>
+    );
+  }
+} 
 
 export default App;

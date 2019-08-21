@@ -1,33 +1,127 @@
-.App {
-  text-align: center;
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+h1 {
+	font-size: 28px;
+	font-weight: 300;
+	flex: 1;
+}
+
+h5 {
+	font-weight: 500;
+	line-height: 1.7em;
+}
+
+h6 {
+	color: #666;
+	font-size: 14px;
+}
+
+body {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 90%;
+	max-width: 1240px;
 }
 
-.App-link {
-  color: #61dafb;
+#main {
+  display: flex;
+  flex: 1;
+  min-height: 60vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header, footer {
+  height: 15vh;
+  padding: 1em;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  justify-content: space-evenly;
+}
+
+header {
+  border-bottom: 2px #d3d3d3 solid;
+}
+
+footer {
+  border-top: 2px #d3d3d3 solid;
+}
+
+.wrapper {
+  display: flex;
+}
+.wrapper > div {
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+
+#main:first-child {
+    width: 100%;
 }

@@ -1,0 +1,29 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 2vw 1vh 2vw;
+    width: 100%;
+}
+
+.cart > div {
+    width: 100%;
+    text-align: left;
+    margin: 1em 0 1em 0;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart thead {
+    border-bottom: 1px solid black;
+}
+
+.cart tr {
+    margin: 1em 0 1em 0;
+}
+
+.cart-form {
+    display: flex;
+    flex-direction: column;
+}

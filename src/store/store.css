@@ -1,0 +1,28 @@
+.store {
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.store-header {
+    display: flex;
+    flex-wrap: wrap;  
+    margin: 1vh 2vw 1vh 2vw;  
+}
+
+.store-header > div {
+    flex-grow: 1;
+    display: flex;
+}
+
+.title-box {
+    justify-content: flex-start;
+}
+
+.cart-box {
+    justify-content: flex-end;
+}
